@@ -1,0 +1,11 @@
+thread:
+  #普通线程池
+  threadPoolExecutor:
+    #核心线程数
+    corePoolSize: 10
+    #最大线程数
+    maximumPoolSize: 10
+  #定时线程池配置
+  scheduledThreadPoolExecutor:
+    #核心线程数
+    corePoolSize: 2
